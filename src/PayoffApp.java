@@ -1,8 +1,12 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PayoffApp {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        //how many credit cards?
+
+        //make Apr ArrayList
 
         while(scan.hasNextLine()) {
             String name = scan.nextLine();
